@@ -116,4 +116,74 @@ ul{
     opacity: 1;
     pointer-events: auto;
 }
+ul.right-menu li .hamburger-menu-container{
+    display: none;
+}
+.right-menu-mobile{display: none}
 
+.hamburger-menu-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hamburger-menu{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger-menu div{
+    width: 1.6rem;
+    height: 3px;
+    border-radius: 3px;
+    background: #fff;
+    position: relative;
+}
+.hamburger-menu div:before,
+.hamburger-menu div:after{
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: #fff;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hamburger-menu div:before{
+    transform: translateY(-7px);
+}
+.hamburger-menu div:after{
+    transform: translateY(7px);
+}
+
+
+
+
+@media (max-width: 1081px) {
+    .main-nav ul.main-menu{
+        display: none;
+    }
+
+    .right-menu{
+        display: flex;
+        padding-left: 606px;
+        flex-wrap: revert;
+    }
+    .inter-face{
+        display: flex;
+
+        flex-wrap: revert;
+    }
+    ul.right-menu li .hamburger-menu-container{
+        display: block;
+    }
+}
