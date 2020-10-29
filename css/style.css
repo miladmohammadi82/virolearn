@@ -168,7 +168,7 @@ ul.right-menu li .hamburger-menu-container{
 
 
 
-@media (max-width: 1081px) {
+@media (max-width: 1104px) {
     .main-nav ul.main-menu{
         display: none;
     }
@@ -185,5 +185,19 @@ ul.right-menu li .hamburger-menu-container{
     }
     ul.right-menu li .hamburger-menu-container{
         display: block;
+    }
+}
+
+@media (max-width: 700px){
+    .right-menu{
+        display: flex;
+        padding-right: 50px;
+    }
+    .hamburger-menu{
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
