@@ -171,6 +171,7 @@ ul.right-menu li .hamburger-menu-container{
         justify-content: center;
         align-items: center;
         text-align: center;
+        transition: all .5s ease-in-out;
     }
 
     .hamburger-menu div:before{
@@ -199,6 +200,21 @@ ul.right-menu li .hamburger-menu-container{
         display: block;
     }
 
+}
+
+.hamburger-menu.open div{
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger-menu.open div:before{
+    transform: translateY(0) rotate(-45deg);
+    background: #940000;
+}
+
+.hamburger-menu.open div:after{
+    transform: translateY(0) rotate(45deg);
+    background: #940000;
 }
 
 @media (max-width: 700px){
