@@ -22,6 +22,8 @@
     <list default="true" id="f440e81c-1acf-4410-899d-c79552aa451a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
@@ -71,6 +74,7 @@
       <recent name="C:\viroLearn\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\viroLearn\js" />
       <recent name="C:\viroLearn\css" />
       <recent name="C:\viroLearn" />
     </key>
@@ -85,7 +89,7 @@
       <updated>1603981135534</updated>
       <workItem from="1603981156502" duration="1273000" />
       <workItem from="1603984715427" duration="20463000" />
-      <workItem from="1604059725693" duration="23680000" />
+      <workItem from="1604059725693" duration="26952000" />
     </task>
     <task id="LOCAL-00001" summary="basic css">
       <created>1603985002149</created>
@@ -171,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604084492435</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="complete li menu mobile">
+      <created>1604088395590</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604088395590</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,17 +212,18 @@
     <MESSAGE value="js button menu mobile" />
     <MESSAGE value="create animation is mobile menu" />
     <MESSAGE value="create li menu mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="create li menu mobile" />
+    <MESSAGE value="complete li menu mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete li menu mobile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1133" height="710" key="dock-window-1" timestamp="1604079361581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="1133" height="710" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1604079361581" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1604000911577">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1604089190306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604000911577" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604089190306" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603991257893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

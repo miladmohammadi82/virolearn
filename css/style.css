@@ -124,7 +124,12 @@ ul.right-menu li .hamburger-menu-container{
     display: none;
 }
 
-
+.nav-link > a > i{
+    transform: rotate(180deg);
+}
+.nav-link:hover > a > i{
+    transform: rotate(360deg);
+}
 
 @media (max-width: 1104px) {
 
@@ -216,6 +221,12 @@ ul.right-menu li .hamburger-menu-container{
         z-index: 200;
         overflow-x: hidden;
         overflow-y: auto;
+        transform: translateX(100%);
+        transition: .5s;
+    }
+
+    .main-nav ul.main-menu.show{
+        transform: translateX(10px);
     }
 
     .main-nav ul.main-menu li{
@@ -223,6 +234,9 @@ ul.right-menu li .hamburger-menu-container{
         text-align: right;
     }
 
+    .nav-link:hover .dropdown{
+        display: block;
+    }
 
 
 
@@ -238,7 +252,7 @@ ul.right-menu li .hamburger-menu-container{
         transform: scale(1);
     }
 
-    .dropdown,.dropdown-link{
+    .dropdown{
         position: inherit;
         top: inherit;
         left: inherit;
@@ -251,6 +265,13 @@ ul.right-menu li .hamburger-menu-container{
         background: #394bf8;
         display: none;
     }
+
+    .dropdown:hover{
+        display: block;
+    }
+
+
+
 
     .arrow{
         z-index: 1;

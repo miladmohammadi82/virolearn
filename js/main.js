@@ -12,6 +12,7 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
+document.querySelector('.hamburger-menu').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'))
 
 
 
