@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f440e81c-1acf-4410-899d-c79552aa451a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,10 +55,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\viroLearn\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\viroLearn\css" />
+      <recent name="C:\viroLearn" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603981135534</updated>
       <workItem from="1603981156502" duration="1273000" />
-      <workItem from="1603984715427" duration="360000" />
+      <workItem from="1603984715427" duration="20463000" />
+      <workItem from="1604059725693" duration="23680000" />
     </task>
     <task id="LOCAL-00001" summary="basic css">
       <created>1603985002149</created>
@@ -76,7 +94,84 @@
       <option name="project" value="LOCAL" />
       <updated>1603985002149</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic css2">
+      <created>1603985315699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603985315699</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create li main menu">
+      <created>1603986212608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603986212645</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create li right menu">
+      <created>1603986514836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603986514836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="install font awsome and add font">
+      <created>1603988396949</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603988396949</updated>
+    </task>
+    <task id="LOCAL-00006" summary="style main nav">
+      <created>1603988602241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603988602241</updated>
+    </task>
+    <task id="LOCAL-00007" summary="header for compioter complet">
+      <created>1603997744496</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603997744496</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create menu button mobile">
+      <created>1604005263421</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604005263421</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create menu button mobile">
+      <created>1604006047739</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604006047739</updated>
+    </task>
+    <task id="LOCAL-00010" summary="js button menu mobile">
+      <created>1604076328862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604076328862</updated>
+    </task>
+    <task id="LOCAL-00011" summary="create animation is mobile menu">
+      <created>1604078723325</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604078723325</updated>
+    </task>
+    <task id="LOCAL-00012" summary="create li menu mobile">
+      <created>1604084492435</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604084492435</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +191,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic css" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic css" />
+    <MESSAGE value="basic css2" />
+    <MESSAGE value="create li main menu" />
+    <MESSAGE value="create li right menu" />
+    <MESSAGE value="install font awsome and add font" />
+    <MESSAGE value="style main nav" />
+    <MESSAGE value="header for compioter complet" />
+    <MESSAGE value="create menu button mobile" />
+    <MESSAGE value="js button menu mobile" />
+    <MESSAGE value="create animation is mobile menu" />
+    <MESSAGE value="create li menu mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="create li menu mobile" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" width="1133" height="710" key="dock-window-1" timestamp="1604079361581">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1133" height="710" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1604079361581" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1604000911577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604000911577" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603991257893">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603991257893" />
   </component>
 </project>
