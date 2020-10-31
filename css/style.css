@@ -63,13 +63,14 @@ ul{
 
 .dropdown{
     position: absolute;
-    top: 70%;
+    top: 60%;
     width: 10rem;
     background: #0072ff;
     border-radius: 0 0 20px 20px;
     opacity: 0;
     pointer-events: none;
     transition: 0.8s;
+
 }
 
 .dropdown-link a{
@@ -91,31 +92,22 @@ ul{
     transform: rotate(45deg);
 }
 
+nav-link a{
+    padding-bottom: 5px;
+}
+
+.main-menu .nav-link button#menu-btn{
+
+     background: rebeccapurple;
+     color: #fff;
+     font-size: 16px;
+}
 .nav-link:hover .dropdown{
     transform: translate(0,0);
     opacity: 1;
     pointer-events: auto;
 }
-.nav-link2:hover .dropdown{
-    transform: translate(0,0);
-    opacity: 1;
-    pointer-events: auto;
-}
-.nav-link3:hover .dropdown{
-    transform: translate(0,0);
-    opacity: 1;
-    pointer-events: auto;
-}
-.nav-link4:hover .dropdown{
-    transform: translate(0,0);
-    opacity: 1;
-    pointer-events: auto;
-}
-.nav-link5:hover .dropdown{
-    transform: translate(0,0);
-    opacity: 1;
-    pointer-events: auto;
-}
+
 ul.right-menu li .hamburger-menu-container{
     display: none;
 }
@@ -264,6 +256,7 @@ ul.right-menu li .hamburger-menu-container{
         margin: 0;
         background: #394bf8;
         display: none;
+        padding: 0;
     }
 
     .dropdown:hover{
@@ -291,7 +284,7 @@ ul.right-menu li .hamburger-menu-container{
 
 .hamburger-menu.open div{
     background: transparent;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s;
 }
 
 .hamburger-menu.open div:before{
